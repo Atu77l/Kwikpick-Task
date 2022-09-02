@@ -80,8 +80,8 @@ function Home() {
     <div className="bg-black tracking-wider overflow-x-clip sect3">
       {/* Section 1 */}
       <div className="z-10 absolute flex top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <div className="bg-blue-400 opacity-50 w-80 aspect-square rounded-full blur-[200px]"></div>
-          <div className="bg-red-400 opacity-50  w-80 aspect-square rounded-full blur-[200px]"></div>
+          <div className="bg-blue-200 opacity-50 w-80 aspect-square rounded-full blur-[200px]"></div>
+          <div className="bg-red-200 opacity-50  w-80 aspect-square rounded-full blur-[200px]"></div>
         </div>
       <div className="h-screen relative">
               <img ref={el => ele1=el} src={img1} alt="1" className="left absolute h-32 md:h-40 aspect-square top-[20%] left-[10%]"/>
